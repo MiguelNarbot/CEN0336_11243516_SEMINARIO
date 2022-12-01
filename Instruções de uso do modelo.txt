@@ -1,0 +1,21 @@
+Olá Professor!
+
+Vou colocar aqui uma instução básica de como rodar o modelo
+
+Todo o algoritmo se encontra certinho, com o caminho certo das pastas. 
+Vale ressaltar que o caminho das pastas é relacionado ao Googlecolab, portanto, para rodar melhor 
+pode-se abrir o arquivo no colab e importar a pasta "Animais" para dentro dele. Ai dara o caminho certo do arquivo e rodará de primeira. Caso contrário seguir os passos:
+
+1)Baixe a pasta "Animais". Aqui contém as imagens para rodar o modelo.
+2)Coloque a pasta "Animais" no mesmo directorio que rodará o algoritmo.
+3)Abra o arquivo "cen0336_projeto_de_visão_computacional_e_python" 
+4)em train_directory='caminho do arquivo Animais/train', coloque o caminho do arquivo
+5)em test_directory='caminho do arquivo Animais/test', coloque o caminho do arquivo
+6)em val_directory='caminho do arquivo Animais/valid', coloque o caminho do arquivo
+7)em folders =glob('caminho do arquivo Animais/train/*'). Não esqueça da /*
+8)Rode os códigos. 
+Na parte do TESTE do Dataset
+9)em dir_path='caminho do arquivo Animais/test sem folder'. Observe que é o "teste sem folder".
+
+Pronto, ele irá expor as imagens e dirá se é ou não o animal desejado.  
+
